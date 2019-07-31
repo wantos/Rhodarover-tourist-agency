@@ -1,0 +1,19 @@
+form{
+	padding: 12px;
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+fieldset{
+	border: 2px solid blue;
+	width: 70%;
+	height: auto;
+	text-align: center;
+	padding: 12px;
+	margin: 0 auto;
+}
+
