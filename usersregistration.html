@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="usersregistration.css">
+	<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+<script src="https://kit.fontawesome.com/6b5a3617e3.js"></script>
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+
+		<title>registration-page</title>
+</head>
+<body>
+<!-- Default form register -->
+<form class="text-center border border-light p-5" action="#!">
+
+    <p class="h4 mb-4"><b>Sign up<b></p><br>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+        At least 8 characters and 1 digit
+    </small>
+
+    <!-- Phone number -->
+    <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+    <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+        Optional - for two step authentication
+    </small>
+
+    <!-- Newsletter -->
+    
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit" onclick="submitme">Submit</button>
+
+    <!-- Social register -->
+    <p>or sign up with <ion-icon name="arrow-down" ></ion-icon></p>
+
+    <a class="btn-floating btn-lg btn-fb" type="button" role="button" href="www.facebook.com">
+        <i class="fab fa-facebook-f" style= "color: blue;"></i>
+    </a>
+    <a class="btn-floating btn-lg btn-tw" type="button" role="button" href="www.twitter.com">
+        <i class="fab fa-twitter" style= "color: blue;"></i>
+    </a>
+    <a class="btn-floating btn-lg btn-li" type="button" role="button" href="www.linkedin.com">
+        <i class="fab fa-linkedin-in" style= "color: blue;"></i>
+    </a>
+    <a class="btn-floating btn-lg btn-git" type="button" role="button" href="www.github.com">
+        <i class="fab fa-github"   style= "color: black;"></i>
+    </a>
+
+    <hr>
+
+    <!-- Terms of service -->
+    <p>By clicking
+        <em>Sign up</em> you agree to our
+        <a href="" target="_blank">terms of service</a>
+
+</form>
+<!--  form register -->	
+
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
