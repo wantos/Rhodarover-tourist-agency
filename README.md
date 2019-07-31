@@ -13,6 +13,7 @@ The confirming plans page tells the user to fill in the service he or she is mor
   <li> html </li>
   <li> css </li>
   <li> javascript </li>
+  <li>Bootstrap</li>
   <li> pencil project </li>
 </ul>
 
