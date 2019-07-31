@@ -15,5 +15,4 @@ The confirming plans page tells the user to fill in the service he or she is mor
   <li> javascript </li>
   <li> pencil project </li>
 </ul>
-# Future additions
-     functional database
+
