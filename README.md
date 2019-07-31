@@ -8,3 +8,12 @@ The suggestions page shows the user atleast three suggestions of the places he o
 # after viewing the suggestions page the users will be told to confirm his or her plans for the tour or place this covers;
 The confirming plans page tells the user to fill in the service he or she is more confortable with for example would he like flight partner , airport taxi, Hotel, tourism company, Mode of payment( mode of payment is whether with visa or paypal or mobile money)
 # Then once the user confirms their plans they are taken to the payment details page to show whether their particular payment details are successful or unsuccessful (declined)
+# Technologies Used
+<ul>
+  <li> html </li>
+  <li> css </li>
+  <li> javascript </li>
+  <li> pencil project </li>
+</ul>
+# Future additions
+     functional database
