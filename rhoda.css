@@ -1,0 +1,12 @@
+.card
+{
+	margin : 0 auto;
+	padding: 12px;
+	display: flex;
+    
+}
+
+body{
+	background-color: white
+	
+}
